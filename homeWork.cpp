@@ -3,11 +3,10 @@ using namespace std;
 
 //homewrok 1
 string fullName = "Nadia Nouri";
-
-int age = 32;
+unsigned short age = 32;
 string city = "Stockholm";
 string country = "Sweeden";
-int monthlySalary = 5000;
+unsigned short monthlySalary = 5000;
 char gender = 'M';
 bool isMarried = false;
 
@@ -21,22 +20,20 @@ int main(){
     cout << "Gender: "<< gender << ".\n";
     cout << "Married: "<< isMarried << ".\n\n";
     //homework 2
-    int num_1 = 20 , num_2 = 30 ,num_3 = 10;
+    unsigned short num_1 = 20 , num_2 = 30 ,num_3 = 10;
     cout << num_1 << "+" <<endl;
     cout << num_2 << "+" <<endl;
     cout << num_3 << endl;
     cout << "________________________"<<endl<<endl;
     cout << "Total = " << num_1 + num_2 + num_3 <<endl;
     //homework 3
-    int my_age = 25;
-    int yourAgeAfterFiveYears = my_age + 5;
-    cout <<"After 5 years you will be "<< yourAgeAfterFiveYears <<" years old. \n";
-     
-
-
-
-
-
+    unsigned short my_age = 25;
+    unsigned short yourAgeAfterFiveYears = my_age + 5;
+    cout <<"After 5 years you will be "<< yourAgeAfterFiveYears <<" years old. \n\n";
+    cout << sizeof(int)<< " bytes\n";
 }
+
+
+
 
  
